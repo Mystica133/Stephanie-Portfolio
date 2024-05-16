@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephanie Ulatowski - Professional Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #3a3a3a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #3a3a3a;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #3a3a3a;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .resume-page {
+            background-color: #f5efe0;
+        }
+        .about-me {
+            line-height: 1.6;
+        }
+        .papers .paper {
+            margin-bottom: 20px;
+        }
+        .papers .paper h3 {
+            margin-bottom: 5px;
+        }
+        .resume-section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Stephanie Ulatowski - Professional Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#academic-papers">Academic Papers</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about-me" class="about-me">
+            <h2>About Me</h2>
+            <p>My name is Stephanie Ulatowski, and I am currently a student at UC Berkeley studying Philosophy. I hold seven Associate of Arts and Associate of Science degrees. For the past three years, I have worked as a Registered Medications Technician at an assisted living community, where I have been dedicated to supporting the community and residents' families. My passion for law, specifically in the health sector, drives me towards a career in health law. In January 2024, I had the profound experience of donating my liver to my mother, who had been struggling with liver failure. This experience has further solidified my commitment to making a positive impact through law and healthcare.</p>
+        </section>
+
+        <section id="academic-papers" class="papers">
+            <h2>Academic Papers</h2>
+            <div class="paper">
+                <h3>Paper Title 1</h3>
+                <p>Abstract: Brief description of Paper Title 1...</p>
+            </div>
+            <div class="paper">
+                <h3>Paper Title 2</h3>
+                <p>Abstract: Brief description of Paper Title 2...</p>
+            </div>
+            <!-- Add more papers as needed -->
+        </section>
+
+        <section id="resume" class="resume-page">
+            <h2>Resume</h2>
+            <div class="resume-section">
+                <h3>Education</h3>
+                <p>UC Berkeley, Philosophy (Current)</p>
+                <p>Seven A.A. and A.S. Degrees</p>
+            </div>
+            <div class="resume-section">
+                <h3>Experience</h3>
+                <p>Registered Medications Technician, Assisted Living Community (3 years)</p>
+            </div>
+            <div class="resume-section">
+                <h3>Skills</h3>
+                <p>Law, Health Sector, Academic Writing, Critical Thinking</p>
+            </div>
+            <div class="resume-section">
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">Connect with me on LinkedIn</a></p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:stephanie_ulatowski@berkeley.edu">stephanie_ulatowski@berkeley.edu</a></p>
+            <p>Phone: <a href="tel:5302637118">530-263-7118</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Stephanie Ulatowski</p>
+    </footer>
+</body>
+</html>
